@@ -1,0 +1,128 @@
+@media(max-width: 760px) {
+    .container {
+        max-width: 350px!important;
+        padding: 0 5px!important;
+    }
+    h1{
+        font-size: 38px!important;
+    }
+    h2{
+        font-size: 24px!important;
+    }
+    h3 {
+        font-size: 24px!important;
+    }
+    h4{
+        font-size: 24px!important;
+    }
+    p, a {
+        font-size: 16px!important;
+    }
+
+    /* navbar */
+
+    .header {
+        display: flex!important;
+        align-items: center!important;
+        padding: 10px 15px!important;
+    }
+    /* pattern */
+
+    .bg-pattern{
+        display: none;
+    }
+
+    /* hero-section */
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        gap: 45px!important;
+    }
+    .hero-section__right {
+        width: 100%;
+    }
+    .hero-section__left{
+        gap: 12px!important;
+        display: flex!important;
+        align-items: center!important;
+    }
+
+    .hero-card__first {
+        position: relative!important;
+        right: 0px!important;
+    }
+
+    .hero-card__second {
+        display: none!important;
+    }
+
+    .pattern-1{
+        top: 10px!important;
+        right: 80px!important;
+        width: 100px!important;
+    }
+
+    .pattern-2 {
+        display: none;
+    }
+
+    /* info section */
+    .info-section {
+        display: flex!important;
+        flex-direction: column!important;
+    }
+    .info-card {
+        width: 100%!important;
+    }
+    .info-card__content {
+        flex-direction: row!important;
+        justify-content: space-between!important;
+        align-items: center;
+    }
+    /* about us section */
+
+    .about-us {
+        flex-direction: column;
+    }
+    .about__body {
+        gap: 25px!important;
+    }
+    .about-us__inst {
+        width: 100%!important;
+    } 
+    .about-us__content {
+        width: 100%!important;
+    }
+    .about__body {
+        flex-direction: column;
+    }
+    .about__body--text {
+        width: 100%!important;
+    }
+    .about__body--img {
+        width: 100%!important;
+    }
+
+    .card-primary__content {
+        align-items: start!important;
+        flex-direction: column;
+        gap: 25px;
+    }
+    .card-primary__content--text {
+        width: 100%!important;
+    }
+
+
+    .product-example {
+        flex-direction: column;
+    }
+    .product-card_3 {
+        gap: 0px!important;
+    } 
+    .product-card_2 {
+        gap: 0px!important;
+    }
+    .experts-section__carousel {
+        flex-direction: column;
+    }
+}
